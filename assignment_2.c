@@ -43,7 +43,7 @@ void img_free(IMAGE *img)
 
 IMAGE *img_read(const char *filename)
 {
-    FILE *fpointer = fopen("cat.ppm", "r");
+    FILE *fpointer = fopen(filename, "r");
     char buffer[100];
 
     // 1st line
